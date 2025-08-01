@@ -75,22 +75,6 @@ pip install transformers datasets torch
 
 ---
 
-### Usage
-
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/yiguptabittu/textToSqlQuery.git
-```
-
-2. **Run the Jupyter notebook** to fine-tune the T5 model:
-
-```bash
-jupyter notebook fine_tune_t5.ipynb
-```
-
----
-
 ### Example: Inference
 
 Once fine-tuned, the model can be used to generate SQL queries based on new questions and contexts. For example:
